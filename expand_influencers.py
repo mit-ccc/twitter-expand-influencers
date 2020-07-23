@@ -11,7 +11,7 @@ Some constants controlling aspects of the pull are below.
 
 Example:
 
-  ./src/python/twitter/expand_influencers.py --seedfile seed_sets/boston_seed_set.txt
+  ./expand_influencers.py --seedfile seed_sets/boston_seed_set.txt
 
 The environment variables TWITTER_API_KEY and TWITTER_SECRET must be
 set to your respective Twitter API credentials.
