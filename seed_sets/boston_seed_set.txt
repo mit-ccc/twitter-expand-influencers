@@ -114,3 +114,8 @@ OnlyinBOS news
 BostonDotCom news
 BostonPolice police
 BostonGlobe news
+johnfbarros politician
+andreaforboston politician
+Kim_Janey politician
+IamJonSantiago politician
+wutrain politician
