@@ -46,6 +46,10 @@ def handles_to_rules(handles, ruleset_name):
                         " OR ".join(["@%s" % (s) for s in handle_subset]),
                         "at_%s_%d" % (ruleset_name, i / NUM_HANDLES_PER_RULE),
                     ),
+                    make_rule(
+                        " OR ".join(["retweets_of:%s" % (s) for s in handle_subset]),
+                        "retweets_of_%s_%d" % (ruleset_name, i / NUM_HANDLES_PER_RULE),
+                    ),
                 ]
             }
         )
